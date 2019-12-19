@@ -494,7 +494,7 @@ public class FlickrCom extends PluginForHost {
     @SuppressWarnings({ "unchecked", "rawtypes" })
     private String getFinalLink() throws Exception {
         String finallink = null;
-        final String[] sizes = { "o", "k", "h", "l", "c", "z", "m", "n", "s", "t", "q", "sq" };
+        final String[] sizes = { "o", "5k", "4k", "3k", "k", "h", "l", "c", "z", "m", "n", "s", "t", "q", "sq" };
         String picSource;
         // picSource = br.getRegex("modelExport: (\\{\"photo\\-models\".*?),[\t\n\r ]+auth: auth,").getMatch(0);
         picSource = br.getRegex("main\":(\\{\"photo-models\".*?),[\t\n\r ]+auth: auth,").getMatch(0);
